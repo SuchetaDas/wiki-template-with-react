@@ -1,0 +1,30 @@
+.mw-wiki-logo1{
+    background-image:url(../images/cognizant.jpg)
+}
+#p-logo1
+{
+    width:10em;
+    height:160px
+}
+#p-logo1 a
+{
+    display:block;
+    width:10em;
+    height:50px;
+    background-repeat:no-repeat;
+    background-position: right-top right-top;
+    text-decoration:none
+}   
+@media (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(min-resolution:1.5dppx),(min-resolution:144dpi)
+{
+    .mw-wiki-logo{
+        background-image:url(../images/cognizant.jpg);
+        background-size:135px auto
+        }
+}
+@media (-webkit-min-device-pixel-ratio:2),(min--moz-device-pixel-ratio:2),(min-resolution:2dppx),(min-resolution:192dpi){
+    .mw-wiki-logo{
+        background-image:url(../images/cognizant.jpg);
+        background-size:135px auto
+        }
+    }
